@@ -1,7 +1,6 @@
 env/
 /assets/faces
 input/
-pb_data/
 pb_migrations/
 node_modules/
 src/__pycache__

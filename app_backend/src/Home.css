@@ -1,0 +1,47 @@
+/* Container to center the content */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color for the body */
+    font-family: Arial, sans-serif;
+    color: black; /* Black font color */
+}
+
+/* Rectangle box styling */
+.fruit-box {
+    background-color: #ffffff; /* Light color for the rectangle */
+    padding: 20px;
+    border-radius: 20px; /* Rounded edges */
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+    margin-top: 200px; /* 200px from the top */
+    height: 500px; /* Extending to the bottom of the viewport */
+    overflow: hidden; /* Hide the bottom edge */
+}
+
+/* Title styling */
+.fruit-box h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Inputs section */
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.input-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}

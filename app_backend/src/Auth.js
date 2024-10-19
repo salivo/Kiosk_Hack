@@ -1,9 +1,7 @@
 // src/Auth.js
 import React, { useState } from "react";
-import PocketBase from "pocketbase";
+import pb from "./lib/pocketbase";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for routing
-
-const pb = new PocketBase(process.env.REACT_APP_PB_URL); // Use environment variable for PocketBase URL
 
 const Auth = () => {
   const [email, setEmail] = useState("");
